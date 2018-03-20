@@ -29,6 +29,7 @@ public class buttonControl_script : MonoBehaviour
 	{
 		anim.SetBool("isRun",!(anim.GetBool("isRun")));
 		anim.SetBool("isIdle", false);
+        print("跑起来～");
 
 	}
 
